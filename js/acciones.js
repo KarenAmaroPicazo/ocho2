@@ -18,7 +18,7 @@ function Comienza() {
 var opciones = { frequency: 2000 };
 
 watchID = navigator.accelerometer.watchAcceleration(Correcto, Error, opciones);
-navigator.geolocacion.getCurrentPosition(Localiza, ErrorLocalizacion);
+navigator.geolocation.getCurrentPosition(Localiza, ErrorLocalizacion);
 }
 // Detiene la 'observacion' de la aceleracion
 
